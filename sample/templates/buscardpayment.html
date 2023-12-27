@@ -44,9 +44,9 @@ $('[data-toggle="tooltip"]').tooltip()
     <div class="alert alert-primary" role="alert">
   <center>
     <h3>Paying to {{travel}}</h3>
-    {% for ve in v %}
+    {% comment %} {% for ve in v %}
     <h4>Total Amount: {{ve.fare}} /-</h4>
-    {% endfor %}
+    {% endfor %} {% endcomment %}
   </center>
 </div>
     <div class="container py-5">
