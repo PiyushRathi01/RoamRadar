@@ -1,7 +1,6 @@
 # RoamRadar
 
 Modules:
-We divided our project into five modules
 
 1.Tours Module
 
